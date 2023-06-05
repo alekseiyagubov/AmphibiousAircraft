@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8826033312465909112
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4680379744913607955, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: _dragCoef
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607955, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: _liftCoef
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607955, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: _inertiaFactor
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607955, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: _airSettings._speed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607955, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: _waterSettings._speed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607955, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: _airSettings._pressure
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607955, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: _waterSettings._pressure
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607964, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_Name
+      value: BotJet
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 95.80005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 55.832764
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680379744913607965, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7760298205539428271, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: _reloadingTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7760298205539428271, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+      propertyPath: _ammoPerCartridge
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+--- !u!1 &4217711337700669540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4680379744913607964, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+  m_PrefabInstance: {fileID: 8826033312465909112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1735986809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217711337700669540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411060de4483b5e4c9847cd3cbc18554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetColor: {r: 1, g: 0, b: 0, a: 1}
+  needBoxIndicator: 1
+  needArrowIndicator: 1
+  needDistanceText: 1
+  indicator: {fileID: 0}
+--- !u!114 &1735986810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217711337700669540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee2ee0457b0244cfa97c54bfdbeecc34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _aircraft: {fileID: 4217711337700669545}
+  _aircraftRotation: {fileID: 1735986811}
+  _playerTransform: {fileID: 0}
+  _firingDistance: 300
+  _signalBus: {fileID: 0}
+  _target: {fileID: 1735986809}
+  _spottedTarget: {fileID: 1735986816}
+--- !u!114 &1735986811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217711337700669540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84d10155c5b47b9a12beb159430379b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationSpeed: 0.5
+--- !u!114 &1735986816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217711337700669540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411060de4483b5e4c9847cd3cbc18554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetColor: {r: 0.035300493, g: 1, b: 0, a: 1}
+  needBoxIndicator: 1
+  needArrowIndicator: 1
+  needDistanceText: 1
+  indicator: {fileID: 0}
+--- !u!114 &4217711337700669545 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4680379744913607953, guid: 5f1b83f348f95ec45a94781ecfb38c51, type: 3}
+  m_PrefabInstance: {fileID: 8826033312465909112}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217711337700669540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013ea85a1bcf43daa2c49ead3c93c001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
