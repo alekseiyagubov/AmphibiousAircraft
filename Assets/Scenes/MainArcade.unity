@@ -130,11 +130,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 28494239512182227, guid: 12201960f4129ce4abb9b6e3bc83d5b0, type: 3}
+    - target: {fileID: 2556743404424056761, guid: 12201960f4129ce4abb9b6e3bc83d5b0, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1306146657880580442, guid: 12201960f4129ce4abb9b6e3bc83d5b0, type: 3}
+    - target: {fileID: 3548280976730313520, guid: 12201960f4129ce4abb9b6e3bc83d5b0, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}

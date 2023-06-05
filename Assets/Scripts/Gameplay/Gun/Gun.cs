@@ -16,7 +16,7 @@ public class Gun : MonoBehaviour
 
     private void Start()
     {
-        _ammoCounter = _ammoPerCartridge;
+        ResetAmmo();
     }
 
     public void Fire(Vector3 direction)
@@ -25,7 +25,7 @@ public class Gun : MonoBehaviour
         {
             return;
         }
-        
+
         if (_ammoPerCartridge > 0 && _ammoCounter == 0)
         {
             _reloadingTimer = _reloadingTime;
@@ -43,6 +43,16 @@ public class Gun : MonoBehaviour
         projectile.Launch(direction);
 
         _timeoutTimer = _fireTimeout;
+
+        if (_ammoCounter > 0)
+        {
+            _ammoCounter--;
+        }
+    }
+
+    private void ResetAmmo()
+    {
+        _ammoCounter = _ammoPerCartridge;
     }
 
     private void Update()
@@ -55,6 +65,11 @@ public class Gun : MonoBehaviour
         if (_reloadingTimer > 0)
         {
             _reloadingTimer -= _reloadingTime * Time.deltaTime;
+
+            if (!IsReloading)
+            {
+                ResetAmmo();
+            }
         }
     }
 }
